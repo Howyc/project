@@ -5,6 +5,7 @@ import store from './store'
 import Axios from 'axios'
 import jq from 'jquery'
 
+import "../public/css/init.css"
 Vue.prototype.axios = Axios;
 import Vant from 'vant';
 import 'vant/lib/index.css';
@@ -14,7 +15,6 @@ Vue.prototype.jq = jq;
 
 Vue.config.productionTip = false
 
-import "../public/css/init.css"
 new Vue({
   router,
   store,
